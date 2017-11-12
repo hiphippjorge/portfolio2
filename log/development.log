@@ -1,0 +1,7 @@
+Started GET "/" for 127.0.0.1 at 2017-11-10 23:21:26 -0600
+Processing by StoriesController#index as HTML
+  Rendering stories/index.html.erb within layouts/application
+  Rendered stories/index.html.erb within layouts/application (5755.8ms)
+Completed 200 OK in 6103ms (Views: 5922.9ms)
+
+
