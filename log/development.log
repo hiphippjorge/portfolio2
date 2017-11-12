@@ -5,3 +5,36 @@ Processing by StoriesController#index as HTML
 Completed 200 OK in 6103ms (Views: 5922.9ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-11-11 19:23:08 -0600
+Processing by StoriesController#index as HTML
+  Rendering stories/index.html.erb within layouts/application
+  Rendered stories/index.html.erb within layouts/application (317.4ms)
+Completed 200 OK in 644ms (Views: 448.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-11 19:25:37 -0600
+Processing by StoriesController#index as HTML
+  Rendering stories/index.html.erb within layouts/application
+  Rendered stories/index.html.erb within layouts/application (22.1ms)
+Completed 500 Internal Server Error in 27ms
+
+
+  
+ActionView::Template::Error (The asset "chess-wars.png" is not present in the asset pipeline.):
+    146: <div class="box">
+    147:   <h4>Agile Team Project</h4>
+    148:   <%= link_to "https://let-the-wookie-win.herokuapp.com/" do %>
+    149:     <%= image_tag('chess-wars.png', :class=>"full-width") %>
+    150:   <% end %>
+    151:   <p>Here I was able to work as part of an agile software development team to build a complex web app like they’re built in the real world. Under the wing of a senior software engineer, I joined weekly agile team meetings for code reviews, sprint planning, and feature assignments.</p>
+    152: </div>
+  
+app/views/stories/index.html.erb:149:in `block in _app_views_stories_index_html_erb__1141348899009040602_70201690723420'
+app/views/stories/index.html.erb:148:in `_app_views_stories_index_html_erb__1141348899009040602_70201690723420'
+Started GET "/" for 127.0.0.1 at 2017-11-11 19:27:46 -0600
+Processing by StoriesController#index as HTML
+  Rendering stories/index.html.erb within layouts/application
+  Rendered stories/index.html.erb within layouts/application (187.2ms)
+Completed 200 OK in 319ms (Views: 312.4ms)
+
+
